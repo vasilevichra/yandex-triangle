@@ -2,7 +2,7 @@ import spock.lang.Specification
 
 class RtriangleProviderTest extends Specification {
 
-    def "the triangle is NOT a right"() {
+    def "the triangle is NOT right"() {
 
         setup:
         def triangle = new RtriangleProvider()

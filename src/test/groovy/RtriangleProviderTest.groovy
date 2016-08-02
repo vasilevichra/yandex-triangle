@@ -27,7 +27,7 @@ class RtriangleProviderTest extends Specification {
 
     }
 
-    private double getLengthByDotsInPow2(begin, end) {
+    private static double getLengthByDotsInPow2(begin, end) {
 
         return (end?.first() - begin?.first())**2 + (end?.last() - begin?.last())**2 as Double
 
